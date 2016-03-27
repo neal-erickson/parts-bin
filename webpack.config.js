@@ -15,8 +15,8 @@ module.exports = {
                 test: /\.jsx$/,
                 include: path.join(__dirname, 'src'),
                 exclude: /(node_modules|bower_components)/,
-                loader: 'jsx-loader?insertPragma=React.DOM&harmony'
-                //loaders: ['jsx-loader?insertPragma=React.DOM&harmony', 'babel']
+                //loader: 'jsx-loader?insertPragma=React.DOM&harmony'
+                loaders: ['jsx-loader?insertPragma=React.DOM&harmony', 'babel']
                 // query: { presets: ['react', 'es2015']      }
             }
         ]
