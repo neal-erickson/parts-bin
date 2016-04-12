@@ -7,6 +7,7 @@ import PartsList from './PartsList'
 // handy information:
 // http://davidandsuzi.com/writing-a-basic-app-in-redux/
 // https://github.com/gaearon/react-hot-boilerplate
+// http://es6-features.org/#Constants
 
 const App = () => (
   <div>
