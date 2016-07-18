@@ -8,6 +8,7 @@ import Capacitor from '../parts/capacitor';
 export default class PartsList extends Component {
   render() {
 
+    // hardcoded for now
     let capacitors = [
       new Capacitor('1', 'Ceramic', '10uF', '16V', '10%'),
       new Capacitor('2', 'Metal film', '.001uF', '25V', '10%')
